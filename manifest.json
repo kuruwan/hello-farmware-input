@@ -10,6 +10,6 @@
  "executable": "python",
  "args": ["hello-farmware-input-master/hello.py"],
  "config": [
-    {"name": "input", "label": "Input (anything you'd like)", "value": "default"}
+    {"name": "input", "label": "Input (temputature)", "value": "default"}
  ]
 }
