@@ -7,4 +7,4 @@ A simple Farmware example that tells FarmBot to log a new message including the 
 from farmware_tools import get_config_value, device, {{pin63}}
 
 INPUT_VALUE = get_config_value(farmware_name='Hello Farmware Input', config_name='input', value_type=str)
-device.log(message='{{pin63}}', message_type='success')
+device.log(message='test xxx', message_type='success')
