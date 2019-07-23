@@ -4,6 +4,7 @@
 
 A simple Farmware example that tells FarmBot to log a new message including the provided input.
 temp = {{pin63}}
+    {"name": "temp", "label": "Input (tempin)", "value": "default"}
 '''
 
 from farmware_tools import get_config_value, device
