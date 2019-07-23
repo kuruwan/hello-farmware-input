@@ -11,5 +11,5 @@ temp = {{pin63}}
 from farmware_tools import get_config_value, device
 
 INPUT_VALUE = get_config_value(farmware_name='Hello Farmware Input', config_name='input', value_type=str)
-INPUT_VALUE2 = get_config_value(farmware_name='Hello Farmware Input2', config_name='temp', value_type=str)
+
 device.log(message='Hello Farmware! Input was: {}'.format(INPUT_VALUE), message_type='success')
