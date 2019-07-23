@@ -11,5 +11,6 @@
  "args": ["hello-farmware-input-master/hello.py"],
  "config": [
     {"name": "input", "label": "Input (temputature)", "value": "default"}
+    {"name": "temp", "label": "Input (tempin)", "value": "default"}
  ]
 }
